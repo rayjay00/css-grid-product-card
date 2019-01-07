@@ -1,0 +1,20 @@
+{
+  "name": "product-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w style.scss -o styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayjay00/css-grid-product-card.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rayjay00/css-grid-product-card/issues"
+  },
+  "homepage": "https://github.com/rayjay00/css-grid-product-card#readme"
+}
