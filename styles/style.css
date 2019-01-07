@@ -1,61 +1,50 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:600');
-
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:600");
 html {
   margin: 0;
   padding: 0;
-  font-size: 62.5%; 
-}
+  font-size: 62.5%; }
 
 .product {
   margin: 0 auto;
   height: 40rem;
-  width:  30rem;
+  width: 30rem;
   padding: 0.3rem;
   border: 3px solid black;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-  &__name {
+  grid-template-rows: repeat(12, 1fr); }
+  .product__name {
     grid-column: 1 / -1;
     font-size: 2.5rem;
     padding: 0;
     margin: 0;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
-  }
-  
-  &__img {
+    font-family: 'Open Sans', sans-serif; }
+  .product__img {
     grid-column: 1 / -1;
     grid-row: 2 / 9;
     height: 100%;
     width: 100%;
     cursor: pointer;
-    justify-self: center;
-  }
-
-  &__rating {
+    justify-self: center; }
+  .product__rating {
     font-size: 2rem;
     grid-column: 1 / -1;
     grid-row: 9 / 10;
     cursor: pointer;
-    padding: 0.3rem;
-    a {
+    padding: 0.3rem; }
+    .product__rating a {
       color: #3498db;
       font-family: 'Open Sans', sans-serif;
-      font-weight: 300;
-    }
-  }
-  
-  &__price {
+      font-weight: 300; }
+  .product__price {
     font-size: 2.75rem;
     grid-column: 1 / -1;
     grid-row: 10 / 11;
     margin: 0;
     padding: 0.3rem;
-    font-family: 'Open Sans', sans-serif;
-  }
-  
-  .btn {
+    font-family: 'Open Sans', sans-serif; }
+  .product .btn {
     width: 100%;
     padding: 0;
     font-family: Helvetica;
@@ -66,13 +55,9 @@ html {
     border: none;
     grid-column: 1 / -1;
     grid-row: 11 / span 2;
-    font-family: 'Open Sans', sans-serif;
-    &:active {
-      background-color: darken(#f1c40f, 10%);
-    }
-    .fa {
+    font-family: 'Open Sans', sans-serif; }
+    .product .btn:active {
+      background-color: #c29d0b; }
+    .product .btn .fa {
       padding-right: 1rem;
-      font-size: 2rem;
-    }
-  }
-}
+      font-size: 2rem; }
